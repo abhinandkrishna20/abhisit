@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/abhisit/static/css/main.4c9035a1.css",
+    "main.js": "/abhisit/static/js/main.fe4f9cb2.js",
+    "static/js/787.572deab5.chunk.js": "/abhisit/static/js/787.572deab5.chunk.js",
+    "static/media/img1.jpg": "/abhisit/static/media/img1.3b33865875aece7cc1f8.jpg",
+    "static/media/logo192.png": "/abhisit/static/media/logo192.90f05b6db1c5d1b69d0b.png",
+    "index.html": "/abhisit/index.html",
+    "main.4c9035a1.css.map": "/abhisit/static/css/main.4c9035a1.css.map",
+    "main.fe4f9cb2.js.map": "/abhisit/static/js/main.fe4f9cb2.js.map",
+    "787.572deab5.chunk.js.map": "/abhisit/static/js/787.572deab5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c9035a1.css",
+    "static/js/main.fe4f9cb2.js"
+  ]
+}
