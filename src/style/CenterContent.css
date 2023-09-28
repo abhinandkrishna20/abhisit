@@ -1,0 +1,78 @@
+/* CenterContent.css */
+.CenterContent {
+  flex: 5; /* Takes up 50% of the available space */
+  padding: 20px;
+  
+    
+  padding-top: 100px;
+}
+
+.post {
+  background-color:rgb(29, 28, 28);
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 5px,5px,5px,5px,#aaa;
+  margin-bottom: 20px;
+}
+
+.blog-post {
+  background-color:rgb(29, 28, 28);
+  border: 1px solid #dacbcb;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 5px,5px,5px,5px,#aaa;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.user-info h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.user-info p {
+  margin: 0;
+  color: #888;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+.content{
+  height: 200px;
+}

@@ -1,0 +1,64 @@
+/* Banner styles */
+banner {
+    background-color: black;
+      color: #fff;
+      text-align: center;
+      height: 80vh;
+          
+    }
+    
+    .Banner-4{
+      display: flex;
+      justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    }
+    .Banner-column {
+      flex: 1;
+      margin: 0 10px;
+    }
+    .Banner h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      font-size: 20px;
+      color: #fff;
+      flex-wrap: wrap;
+      text-align: left;
+      
+    }
+    div{
+      text-align: left;
+    }
+    .social a:hover {
+      color: #0ac7f7;
+      text-decoration: underline;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    a{
+      color: #fff;
+    }
+    .social{
+      display: flex;
+      flex-direction: row;
+      /* padding-left: 10px; */
+      
+    }
+    .social li{
+      margin-right: 20px;
+      font-size: larger;
+    }

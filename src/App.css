@@ -1,0 +1,14 @@
+/* App.css or your global stylesheet */
+
+
+.App{
+    background-color: #000000;
+    color: aliceblue;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }  

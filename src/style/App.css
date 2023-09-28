@@ -1,0 +1,69 @@
+
+.App {
+    display: flex;
+    flex-direction: column;
+     /* 100% of the viewport height */
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .LeftSidebar {
+    padding-top: 100px;
+    padding-left: 20px;
+    color: #fff;
+    /* height: 100vh; */
+    /* Takes up 20% (2/10) */
+  /* padding: 20px; */
+  width: 20vw;
+
+  }
+ div{
+  padding-top: 2px;
+ }
+ body{
+  
+    overflow-x: hidden;
+  
+ }
+  
+  .CenterContent {
+    flex: 5; /* Takes up 50% of the remaining space (5/10) */
+    padding: 20px;
+    /* background-color: #02573f; */
+    
+        width: 50vw;
+    /* box-shadow: #555,2,3,4,0; */
+    /* flex: 5; */
+  }
+
+  
+  .RightSidebar {
+    
+    color: #aaffaa;
+    width: 30vw;
+    /* height: 100vh; */
+    
+    padding-top: 100px;
+    padding-right: 30px;
+        
+  }
+  @media (max-width: 768px) {
+    .RightSidebar {
+      display: none;
+      /* width: 100%; */
+    }
+    .CenterContent {
+      width: 100%;
+      padding: 20px;
+    }
+    .LeftSidebar{
+      display: none;
+      /* width: 100%; */
+    }
+
+  }
+
+  
